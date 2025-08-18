@@ -5,8 +5,15 @@
     margin-inline: auto;
 }
 
-
-
+.flex{
+    display: flex;
+}
+.gap1{
+    gap: 1rem;
+}
+.grid{
+    display: grid;
+}
 
 .py-base{
     padding-block: var(--py-base);
