@@ -1,15 +1,21 @@
 .container{
     --max-width:375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
-    border: solid violet;
     margin-inline: auto;
 }
 
 .flex{
     display: flex;
 }
+.itens-center{
+    align-items: center;
+}
 .gap1{
     gap: 1rem;
+}
+
+.gap-1\.5{
+    gap: 1.5rem;
 }
 .grid{
     display: grid;
