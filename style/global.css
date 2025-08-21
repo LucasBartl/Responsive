@@ -3,7 +3,7 @@
     --bg-color: #09090B;
     --surface-color:#18181B;
     --stroker-color:#27272A;
-    --text-color-secondary:#A1A1AA;
+    --text-color-secondary:A1A1AA;
     --text-color-primary:#f4f4f5;
     --brand-color-primary:#f6b733;
     --brand-color-secondary:#fc4a1a;
@@ -86,6 +86,11 @@ a:hover{
 
 ul[role="list"]{
     list-style: none;
+}
+
+    img{
+        max-width: 100%;
+        display: inline-block;
 }
 
 @media (width >= 80em){
