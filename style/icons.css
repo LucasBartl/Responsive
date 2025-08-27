@@ -34,4 +34,12 @@ a.social{
             --bg-img: url(../Assets/icons/discord-hover.svg);
         }
     }
+    &[aria-label=instagram]{
+     --bg-img: url(../Assets/icons/instagram.svg);
+
+    
+        &:hover{
+            --bg-img: url(../Assets/icons/instagram-hover.svg);
+        }
+    }
 }
